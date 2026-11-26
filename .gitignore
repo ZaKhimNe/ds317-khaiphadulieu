@@ -1,10 +1,14 @@
-# Dữ liệu BTC không được chia sẻ ra ngoài
-data/raw/
+# Dữ liệu gốc không đưa lên GitHub: chặn mọi thứ dưới */data/ nhưng giữ README
+datathon/data/**
+!datathon/data/README.md
+VN1/data/**
+!VN1/data/README.md
 
 # Kết quả sinh ra
-archive/outputs-cu/data/
-outputs/TuongVi/
-outputs/submission.csv
+datathon/archive/outputs-cu/data/
+datathon/outputs/TuongVi/
+datathon/outputs/submission.csv
+VN1/outputs/submission*.csv
 
 __pycache__/
 *.pyc
@@ -15,10 +19,6 @@ __pycache__/
 # Tài liệu PDF có bản quyền, nặng -> để trên Drive nhóm
 docs/tai-lieu-tham-khao/
 docs/tai-lieu-mon-hoc/
-
-# Dữ liệu: chặn mọi thứ dưới data/ nhưng giữ cấu trúc thư mục
-data/**
-!data/README.md
 
 # Môi trường / hệ điều hành
 .env
